@@ -3,13 +3,13 @@ body {
     background-color: #ffffff;
 }
 header {
-    background-color: #ad2323; /* Темный фон для шапки */
+    background-color: #d41212; /* Темный фон для шапки */
     color: white;           /* Белый текст */
     padding: 20px;          /* Отступы внутри шапки */
     border: none;             /* Без рамки */
     border-radius: 20px 0 20px 0; /* листочек */
     text-align: center;     /* Текст по центру */
-    opacity: 0.5; /* Полупрозрачность для шапки */
+    opacity: 0.8; /* Полупрозрачность для шапки */
 }
 button {
     background-color: #f04848; /* Красный цвет */
