@@ -1,0 +1,28 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: #ffffff;
+}
+header {
+    background-color: #ad2323; /* Темный фон для шапки */
+    color: white;           /* Белый текст */
+    padding: 20px;          /* Отступы внутри шапки */
+    border: none;             /* Без рамки */
+    border-radius: 20px 0 20px 0; /* листочек */
+    text-align: center;     /* Текст по центру */
+    opacity: 0.5; /* Полупрозрачность для шапки */
+}
+button {
+    background-color: #f04848; /* Красный цвет */
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    border: none;
+    border-radius: 0px; /* Без скругления */
+    cursor: pointer;    /* Чтобы курсор менялся на «ручку» при наведении */
+    transition: 0.3s;   /* Плавная анимация */
+}
+
+/* Эффект при наведении мышкой */
+button:hover {
+    background-color: #a04545;
+    transform: scale(1.05); /* Кнопка чуть увеличивается */
+}
