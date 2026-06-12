@@ -26,3 +26,13 @@ button:hover {
     background-color: #a04545;
     transform: scale(1.05); /* Кнопка чуть увеличивается */
 }
+
+/* Карточка vktrteam для обновления*/
+cardvktr {
+background-color: #ad2323; /* Темный фон для шапки */
+    color: white;           /* Белый текст */
+    padding: 20px;          /* Отступы внутри шапки */
+    border: none;             /* Без рамки */
+    border-radius: 20px 0 20px 0; /* листочек */
+    text-align: center;     /* Текст по центру */
+    opacity: 0.5; /* Полупрозрачность для шапки */
