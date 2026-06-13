@@ -16,7 +16,7 @@ button {
     color: rgb(255, 255, 255);
     padding: 15px 32px;
     border: none;
-    border-radius: 0px; /* Без скругления */
+    border-radius: 20px 0 20px 0; /* листочные кнопки */
     cursor: pointer;    /* Чтобы курсор менялся на «ручку» при наведении */
     transition: 0.3s;   /* Плавная анимация */
 }
