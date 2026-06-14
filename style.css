@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium';
-    background-color: DC143C;
+    background-color: #a10827;
 }
 header {
     background-color: #d41212; /* Темный фон для шапки */
@@ -40,7 +40,7 @@ background-color: #ad2323; /* Темный фон для шапки */
 
 /* Нижняя шапка */
 footer {
-background-color: #a04545;
+background-color: #e34666;
     color: white
     border: none;             /* Без рамки */
     border-radius: 20px 0 20px 0; /* листочек */
