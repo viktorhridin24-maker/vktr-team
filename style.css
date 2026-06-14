@@ -4,7 +4,7 @@ body {
 }
 header {
     background-color: #d41212; /* Темный фон для шапки */
-    color: white;           /* Белый текст */
+    color: dark-red;           /* Белый текст */
     padding: 20px;          /* Отступы внутри шапки */
     border: none;             /* Без рамки */
     border-radius: 20px 0 20px 0; /* листочек */
@@ -36,3 +36,13 @@ background-color: #ad2323; /* Темный фон для шапки */
     border-radius: 20px 0 20px 0; /* листочек */
     text-align: center;     /* Текст по центру */
     opacity: 0.5; /* Полупрозрачность для шапки */
+}
+
+/* Нижняя шапка */
+footer {
+background-color: #a04545;
+    color: white
+    border: none;             /* Без рамки */
+    border-radius: 20px 0 20px 0; /* листочек */
+    text-align: center;     /* Текст по центру */
+    opacity: 0.8; /* Полупрозрачность для шапки */
