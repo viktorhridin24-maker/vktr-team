@@ -1,6 +1,9 @@
 body {
     font-family: 'Franklin Gothic Medium';
-    background-color: #a10827;
+    background: linear-gradient(to bottom, #a10827, ##e33256)
+
+    height: 100vh;
+    margin: 0;
 }
 header {
     background-color: #d41212; /* Темный фон для шапки */
