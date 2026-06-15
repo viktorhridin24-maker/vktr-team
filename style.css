@@ -1,58 +1,48 @@
 body {
-    font-family: 'Franklin Gothic Medium';
-    background-color: #a10827
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: #a10827;
 }
+
 header {
-    background-color: #d41212; /* Темный фон для шапки */
-    color: dark-red;           /* Белый текст */
-    padding: 20px;          /* Отступы внутри шапки */
-    border: none;             /* Без рамки */
-    border-radius: 20px 0 20px 0; /* листочек */
-    text-align: center;     /* Текст по центру */
-    opacity: 0.8; /* Полупрозрачность для шапки */
+    background-color: #d41212;
+    color: white; /* Исправил, было dark-red */
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    opacity: 0.8;
 }
+
 button {
-    background-color: #f04848; /* Красный цвет */
-    color: rgb(255, 255, 255);
+    background-color: #f04848;
+    color: white;
     padding: 15px 32px;
     border: none;
-    border-radius: 20px 0 20px 0; /* листочные кнопки */
-    cursor: pointer;    /* Чтобы курсор менялся на «ручку» при наведении */
-    transition: 0.3s;   /* Плавная анимация */
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-/* Эффект при наведении мышкой */
 button:hover {
     background-color: #a04545;
-    transform: scale(1.05); /* Кнопка чуть увеличивается */
+    transform: scale(1.05);
 }
 
-/* Карточка vktrteam для обновления*/
-cardvktr {
-background-color: #ad2323; /* Темный фон для шапки */
-    color: white;           /* Белый текст */
-    padding: 20px;          /* Отступы внутри шапки */
-    border: none;             /* Без рамки */
-    border-radius: 20px 0 20px 0; /* листочек */
-    text-align: center;     /* Текст по центру */
-    opacity: 0.5; /* Полупрозрачность для шапки */
-}
-
-/* Нижняя шапка */
-footer {
-background-color: #e34666;
-    color: white;
-    border: none;             /* Без рамки */
-    border-radius: 20px 0 20px 0; /* листочек */
-    text-align: center;     /* Текст по центру */
-    opacity: 0.8; /* Полупрозрачность для шапки */
-}
-
-/* Шаги как помочь дополнить сайт*/
-steps {
+/* Исправил селектор: добавил точку для класса */
+.steps {
     background-color: #bf1134;
     color: white;
-    border: none;             /* Без рамки */
-    border-radius: 20px 0 20px 0; /* листочек */
-    text-align: center;     /* Текст по центру */
-    opacity: 0.8; /* Полупрозрачность для шапки */
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #e34666;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    opacity: 0.8;
+}
