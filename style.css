@@ -46,3 +46,9 @@ footer {
     text-align: center;
     opacity: 0.8;
 }
+
+.steps img {
+    width: 50px; /* Настрой размер, чтобы иконка не была слишком огромной */
+    display: block;
+    margin: 10px auto; /* Центрируем иконку */
+}
