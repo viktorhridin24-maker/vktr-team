@@ -41,7 +41,7 @@ background-color: #ad2323; /* Темный фон для шапки */
 /* Нижняя шапка */
 footer {
 background-color: #e34666;
-    color: white
+    color: white;
     border: none;             /* Без рамки */
     border-radius: 20px 0 20px 0; /* листочек */
     text-align: center;     /* Текст по центру */
@@ -51,7 +51,7 @@ background-color: #e34666;
 /* Шаги как помочь дополнить сайт*/
 steps {
     background-color: #bf1134;
-    color: white
+    color: white;
     border: none;             /* Без рамки */
     border-radius: 20px 0 20px 0; /* листочек */
     text-align: center;     /* Текст по центру */
