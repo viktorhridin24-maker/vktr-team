@@ -61,3 +61,13 @@ button:disabled {
     opacity: 0.5;              /* Делаем её чуть прозрачнее */
     transform: none;           /* Убираем анимацию увеличения при наведении */
 }
+
+my-button {
+    background-color: #f04848;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
